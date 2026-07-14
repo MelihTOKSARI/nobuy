@@ -2,6 +2,8 @@
 
 These are the four public pages your App Store / Google Play listing needs, ready to host **for free** on GitHub Pages.
 
+🎉 **NoBuy is live on the App Store:** [NoBuy: No Spend Challenge Game](https://apps.apple.com/app/id6786423515) (app id `6786423515`). The landing page links to it.
+
 ## What's here
 
 ```
