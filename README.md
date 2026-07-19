@@ -30,7 +30,7 @@ Each page is a single self-contained HTML file (no build step, light + dark awar
 
 - [ ] All four URLs load.
 - [ ] Governing law in Terms is set to US / Delaware (change if you want a different state or country).
-- [x] Privacy Policy reflects **no analytics / no data collection** (v1.0). App Store privacy label = **"Data Not Collected"**.
+- [x] Privacy Policy reflects what the app actually collects (updated 2026-07-19 for 1.1.0: anonymous Firebase Analytics, no IDFA, no user content). App Store privacy label = **Data collected, not linked, not used for tracking** — see `store/app-store-assets.md`.
 - [ ] Contact email `smtoksari@gmail.com` is correct everywhere.
 - [ ] GitHub repo is named exactly `nobuy` and set to **public**, so the URLs resolve.
 
