@@ -26,10 +26,10 @@
 <div class="wrap">
   <header><a href="../">← NoBuy</a></header>
   <h1>Privacy Policy</h1>
-  <p class="meta">Last updated: July 2, 2026</p>
+  <p class="meta">Last updated: July 19, 2026</p>
 
   <div class="tldr">
-    <strong>The short version:</strong> NoBuy has no account and no login. Your challenges, streaks, notes, and envelope amounts live <em>only on your device</em>. We don't run analytics or trackers, we never see your data, and we never sell it. The only data leaving your device is what Apple or Google needs to process a subscription purchase.
+    <strong>The short version:</strong> NoBuy has no account and no login. Your challenges, streaks, notes, reward names and envelope amounts live <em>only on your device</em> &mdash; we never receive them. We do use Google Analytics for Firebase to see anonymous, aggregated usage (which screens get opened, whether a check-in happened) so we can improve the app. That is counts and categories, never the words or numbers you typed. We show no ads, do no cross-app tracking, and never sell anything.
   </div>
 
   <p>This Privacy Policy explains how the NoBuy mobile app ("NoBuy," "we," "us") handles information when you use it. By using NoBuy you agree to this policy.</p>
@@ -37,8 +37,12 @@
   <h2>1. Information you enter stays on your device</h2>
   <p>NoBuy is designed to work without an account. The information you create in the app — your challenges, daily check-ins, streaks, freezes, notes, spending categories and envelope amounts, your name, avatar, and reward — is stored <strong>locally on your device</strong>. It is not transmitted to us and we cannot access it. If you delete the app, this data is removed with it (unless you have enabled a device backup such as iCloud or Google backup, which is controlled by your device settings, not by us).</p>
 
-  <h2>2. No analytics or tracking</h2>
-  <p>NoBuy does <strong>not</strong> include analytics SDKs, advertising SDKs, or third-party trackers. We do not collect usage events, device identifiers for tracking, or any behavioral data. We have no servers that receive your activity, so there is simply nothing about your use of the app for us to see, store, or share.</p>
+  <h2>2. Anonymous usage analytics</h2>
+  <p>NoBuy uses <strong>Google Analytics for Firebase</strong> to understand how the app is used in aggregate. This helps us see which features people actually reach and where they get stuck.</p>
+  <p><strong>What we receive:</strong> anonymous events describing <em>that</em> something happened &mdash; a challenge was started, a check-in was completed, a paywall was viewed, a widget was added, an error occurred. Alongside them we store four coarse properties: your challenge mode (no-buy or low-buy), a bucketed challenge length, a bucketed day count, and whether Premium is active. Firebase also assigns a resettable, app-scoped installation identifier.</p>
+  <p><strong>What we never receive:</strong> the text you type. Your check-in notes, reward names, envelope names, category names, your name, and every amount of money you enter stay on your device and are never included in an event. We do not receive your contacts, location, photos, or health data. Error reports contain fixed diagnostic strings, never your content.</p>
+  <p><strong>No advertising, no tracking.</strong> As of version 1.1.0 NoBuy links the Firebase Analytics build that does <em>not</em> collect Apple's advertising identifier (IDFA). We show no ads, we run no advertising SDKs, and we do not combine your data with information from other companies' apps or websites. In Apple's terms, NoBuy does not &ldquo;track&rdquo; you.</p>
+  <p>NoBuy does not yet offer an in-app switch to turn analytics off &mdash; we intend to add one. Today, deleting the app stops all collection, and you can email us to have the analytics records for your installation deleted. Note that iOS's <em>Allow Apps to Request to Track</em> setting does not affect this collection, because NoBuy does not use the advertising identifier it governs. See <a href="https://firebase.google.com/support/privacy">Firebase's privacy information</a>.</p>
 
   <h2>3. Purchases and subscriptions</h2>
   <p>NoBuy Premium and Freeze Packs are sold as in-app purchases processed by <strong>Apple</strong> (App Store) or <strong>Google</strong> (Google Play). We use <strong>RevenueCat</strong> to manage subscription status. Your actual payment details (card number, billing address) are handled by Apple or Google — we never see or store them. RevenueCat receives a purchase token and an anonymous app-user ID so the app knows whether Premium is active. See <a href="https://www.revenuecat.com/privacy/">RevenueCat's privacy policy</a>, <a href="https://www.apple.com/legal/privacy/">Apple's</a>, and <a href="https://policies.google.com/privacy">Google's</a>.</p>
@@ -47,7 +51,9 @@
   <ul>
     <li>We do not link to your bank, cards, or financial accounts.</li>
     <li>We do not sell or rent your personal information to anyone.</li>
-    <li>We do not use your data for third-party advertising.</li>
+    <li>We do not use your data for third-party advertising, and we show no ads.</li>
+    <li>We do not collect Apple's advertising identifier (IDFA) or track you across other apps and websites.</li>
+    <li>We do not receive the notes, reward names, or money amounts you enter.</li>
     <li>We do not require you to create an account.</li>
   </ul>
 
@@ -55,10 +61,10 @@
   <p>NoBuy is not directed to children under 13, and we do not knowingly collect personal information from them.</p>
 
   <h2>6. Your choices and rights</h2>
-  <p>You can delete all app data at any time by removing the app or using any in-app reset option. Depending on where you live (for example under GDPR or the CCPA), you may have rights to access or delete personal data. Because your content is stored entirely on your own device and we collect nothing, the primary way to exercise these rights is to delete the app. For any question, email us at <a href="mailto:smtoksari@gmail.com">smtoksari@gmail.com</a>.</p>
+  <p>You can delete all app data at any time by removing the app or using any in-app reset option. Depending on where you live (for example under GDPR or the CCPA), you may have rights to access or delete personal data. Because the content you create is stored entirely on your own device, deleting the app removes it. The anonymous analytics described in section 2 are not linked to your identity and cannot be traced back to you individually, so there is no personal profile for us to hand over &mdash; but if you would like us to delete the analytics records associated with your app installation, email us and we will do so. For any question, email <a href="mailto:smtoksari@gmail.com">smtoksari@gmail.com</a>.</p>
 
   <h2>7. Data retention & security</h2>
-  <p>On-device data is retained until you delete it. No method of storage is 100% secure, but because your data never leaves your device, its security rests on your device's own operating system protections.</p>
+  <p>On-device data is retained until you delete it, and its security rests on your device's own operating system protections. The anonymous usage events described in section 2 are retained by Firebase for up to 14 months and then deleted automatically. No method of storage or transmission is 100% secure.</p>
 
   <h2>8. Changes to this policy</h2>
   <p>We may update this policy as the app evolves. Material changes will be reflected by the "Last updated" date above.</p>
